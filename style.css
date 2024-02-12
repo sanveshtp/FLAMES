@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: fira code;
+}
+
+
+span {
+    display: inline-block;
+}
+
+
+#d1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7D5BA6;
+    outline: 50px solid #55D6BE;
+    outline-offset: -5px;
+}
+
+#d2 {
+    border: 1px solid #55D6BE;
+    border-radius: 15px;
+    background-color: #DDDDDD;
+    text-align: center;
+    height: 340px;
+    width: 400px;
+}
+
+@keyframes szn {}
+
+
+#d2:hover {
+    box-shadow: 0px 0px 50px #55D6BE;
+}
+
+label>input {
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+label>input:focus {
+    outline: none;
+    border: none;
+}
+
+#relbut {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #FC6471;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#relbut:active {
+    box-shadow: 3px 3px black;
+    border: none;
+    outline: none;
+}
+
+h1 {
+    margin-top: 2%;
+    color: #7D5BA6;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+
+/* 
+#fr {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FC6471;
+    letter-spacing: 20px;
+} */
+
+
+
+#fr {
+    font-size: 2rem;
+    font-weight: 500;
+}
